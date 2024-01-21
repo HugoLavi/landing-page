@@ -1,0 +1,373 @@
+@font-face{
+    font-family: "font1";
+    src: url(font/Italianno-Regular.ttf);
+}
+
+@font-face{
+    font-family: "font2";
+    src: url(font/JosefinSans-Regular.ttf);
+}
+
+@font-face{
+    font-family: "font3";
+    src: url(font/Inter-Regular.ttf);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #303030;
+    margin: 0;
+}
+
+main,
+header{
+    padding: 0 2%;
+}
+
+h1{
+    font-family: "font1";
+    display: flex;
+    justify-content: center;
+    font-size: 450%;
+    color: #1DB954;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+
+h2{
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: "font2";
+    font-size: 33px;
+    font-weight: 700;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.partie1{
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.stylo{
+    width: 519px;
+    height: 516.922px;
+    border-radius: 50px;
+    border: 1px solid #FFF;
+    background: rgba(245, 245, 245, 0.00);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.img-stylo{
+    width: 400px;
+    height: 400px;
+}
+
+.bouton-acheter{
+    width: 75%;
+    height: 15%;
+    background-color: #1DB954;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    color: #ffffff;
+    font-family: "font3";
+    font-size: 200%;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.bouton-acheter:hover{
+    opacity: 0.5;
+}
+
+.bloc-right a{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+    text-decoration: none;
+}
+
+.partie3 a{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+    text-decoration: none;
+}
+
+.bouton-savoir{
+    
+    width: 300px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    
+    color: #000000;
+    font-family: "font3";
+    font-size: 35px;
+
+    padding: 3.5%;
+    font-weight: 800;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+a{
+    margin: auto;
+    height: 0px;
+    padding: 0;
+    border-radius: 30px;
+    background-color: #1db95400;
+}
+.bouton-savoir:hover{
+    opacity: 0.5;
+}
+
+.bloc-right{
+    background-color: #1db95400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.bloc-right img{
+    width: 180px;
+    height: 180px;
+    padding-bottom: 20%;
+}
+
+.icone{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8%;
+}
+
+.icone span{
+    color: #FFF;
+    font-family: "font2";
+    font-size: 36px;
+    font-weight: 800;
+    animation: float 2s infinite alternate;
+}
+
+.confort{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.efficacite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.durabilite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avis1{
+    width: 450px;
+    height: 287px;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    background: rgba(255, 255, 255, 0.00);
+    display: flex;
+    padding: 30px 10px;
+    margin-bottom: 7%;
+}
+
+.etoile{
+    display: flex;
+}
+
+.etoile-anim{
+    animation: twinkle 4s infinite alternate;
+}
+
+.trait{
+    width: 340px;
+    height: 1px;
+    background-color: #FFF;
+}
+
+.right-avis{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.header-avis{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    padding-right: 8px;
+}
+
+.header-avis img{
+    width: 30px;
+    height: 30px;
+}
+
+.left-avis img{
+    width: 81px;
+    height: 66px;
+    border-radius: 50px
+}
+
+.partie2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.partie2 span{
+    color: #FFF;
+    font-family: "font3";
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.partie2 p{
+    color: #FFF;
+    font-family: "font3";
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.grand-trait{
+    height: 1px;
+    background-color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partie3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+
+.partie3 p{
+    color: #FFF;
+    text-align: left;
+    font-family: verdana;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 70px;
+    line-height: 175%;
+}
+
+.bouton-revenir{
+    width: 300px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    color: #000000;
+    font-family: "font3";
+    font-size: 35px;
+    padding: 3.5%;
+    font-weight: 800;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.bouton-revenir:hover{
+    opacity: 0.5;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.footer a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 100%;
+    font-family: "font2";
+}
+
+.footer a:hover{
+    opacity: 0.5;
+}
+
+
+@keyframes twinkle {
+    0% {
+      opacity: 0.5;
+      transform: rotate(0deg);
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.5;
+      transform: rotate(360deg);
+    }
+}
+
+@keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px); /* Ajustez la distance de lévitation selon vos préférences */
+    }
+}
+
+
+@media (max-width: 1400px) {
+    /* Lorsque la largeur de l'écran est inférieure à 1100px, les éléments prennent 100% de la largeur */
+
+    .partie1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .partie2{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .avis1{
+        width: 503px;
+    }
+
+}
+
